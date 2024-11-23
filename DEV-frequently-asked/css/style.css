@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  color: #030616;
+  background-color: #ffffff;
+  padding: 4rem;
+  width: 100%; /* Ocupar todo el ancho */
+  align-items: center;
+  gap: 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 4rem;
+}
+
+.content-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.title {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 2.25rem;
+  color: #030616;
+}
+
+.cuestions {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #030616;
+}
+
+a {
+  color: #4e80ee;
+}
+
+span {
+  font-weight: bold;
+}
+
+ol,
+ul {
+  list-style-position: outside;
+}
+
+li {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #030616;
+  line-height: 1.5rem;
+  margin-left: 1.2rem;
+}
+
+hr {
+  height: 1.5px;
+  background-color: #d2d5da;
+  border: none;
+}
